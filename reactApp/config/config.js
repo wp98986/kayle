@@ -38,7 +38,10 @@ export default {
   publicPath: './',
   // 开启按需加载
   dynamicImport: {},
+  // 配置postcss=> 采用viewport做移动端适配，编辑时会将px=>vw
   extraPostCSSPlugins: [
     px2viewport({ unitToConvert: 'px', viewportWidth: 375 }),
   ],
+  // build时输出到 cordova工程下www文件夹 可自行根据cordova的项目的名称对此项进行修改
+  outputPath:"../hello/www"
 };
