@@ -1,9 +1,9 @@
 # kayle
 react +cordova
 
-
-reactApp 为umi创建的一个应用。
-正常开发都是进入reactApp中进行开发》
+项目中有两个文件夹hello和reactApp，
+hello是cordova工程目录，reactApp 为umi创建的一个应用目录。
+正常开发都是进入reactApp中进行开发。打包APP进入hello目录
 安装依赖
 ```bash
 $ yarn
